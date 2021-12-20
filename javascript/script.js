@@ -1,18 +1,39 @@
 
-const quizStartEl = document.querySelector("#start-quiz");
+const quizStartEl = document.querySelector("#quizbtn");
 const quizEl = document.querySelector("#questions");
-const highScore = document.querySelector("#highscore");
-const quesContainer = document.querySelector("#ques-container");
+const quesContainer = document.querySelector("#quesContainer");
 const timer = document.querySelector("#countdown");
 
-let startbtn = () => {
-    alert(startbtn)
 
-    console.log(startbtn)
+function start() {
+    document.querySelector('.startBtn') 
+
     
+
+    
+
+};
+console.log(start)
+
+
+let startquiz = () => {
+    score = 0
+    quesTime = 0
+    questionChoices = [...questions]
+    nextQues ()
 }
 
-console.log(quizStartEl)
+function nextQues() {
+
+}
+
+
+console.log(startquiz)
+
+
+
+
+
 
 // array to hold high scores 
 
@@ -69,18 +90,7 @@ let questions = [
 ]
 console.log(questions);
 
-let startquiz = () => {
-    score = 0
-    quesTime = 0
-    questionChoices = [...questions]
-    nextQues ()
-}
-console.log(startquiz)
 
-nextQues = () => {
-    if (questions.length) {
-        
-    }
-}
+
 
 

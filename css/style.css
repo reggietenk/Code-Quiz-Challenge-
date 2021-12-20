@@ -3,6 +3,7 @@
     --primary: white;
     --secondary: purple;
     --background: rgb(80, 77, 77);
+    padding: 3%;
 }
 
 * {
@@ -33,6 +34,10 @@ main {
 p {
     font-size: 20px;
 }
+ 
+a {
+    color: white;
+}
 
 .container {
     display: flex;
@@ -40,9 +45,7 @@ p {
     flex-wrap: wrap;
 }
 
-button,
-[type=button],
-[type=reset],
-[type=submit] {
-  -webkit-appearance: button;
+button:hover {
+    cursor: pointer;
+   
 }
