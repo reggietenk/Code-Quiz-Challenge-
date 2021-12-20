@@ -1,12 +1,18 @@
 * {
     box-sizing: border-box;
     display: flexbox;
+    justify-content: center;
 }
 
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
+}
+
+.page-title { 
+    justify-content: center;
+    display: flex;
 }
 
 #questions {
@@ -28,4 +34,26 @@ text-align: center;
 
 .ques-container:hover{
     cursor: pointer;
+    box-shadow: 0.35% thistle;
+    transform: scale(0.97);
+    transition: transform 80ms;
+   
+
+    
+    
+}
+
+.highscore-container {
+    padding: 25% 25%;
+    margin: auto;
+    border: 5px seagreen solid;
+    justify-content: center;
+}
+
+.highscore-container h3 {
+    display: flex;
+}
+
+.timer {
+box-sizing:content-box
 }
